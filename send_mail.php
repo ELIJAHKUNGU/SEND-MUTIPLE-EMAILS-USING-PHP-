@@ -13,7 +13,7 @@ if(isset($_POST['email_data']))
 		$mail->Host = "ssl://smtp.googlemail.com";		$mail->Port = '587';								//Sets the default SMTP server port
 		$mail->SMTPAuth = true;							//Sets SMTP authentication. Utilizes the Username and Password variables
 		$mail->Username = 'elijahkungu100@gmail.com';					//Sets SMTP username
-		$mail->Password = '0743770216';					//Sets SMTP password
+		$mail->Password = '';					//Sets SMTP password
 		$mail->SMTPSecure = 'ssl';							//Sets connection prefix. Options are "", "ssl" or "tls"
 		$mail->From = 'Elijah';			//Sets the From email address for the message
 		$mail->FromName = 'Webslesson';					//Sets the From name of the message
